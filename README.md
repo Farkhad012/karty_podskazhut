@@ -2,7 +2,7 @@
 
 Эта страница рассказывает о методе "Oblique Strategies", созданном для преодоления творческих кризисов, и показывает, как использовать этот инструмент для креативного подхода к решению проблем.
 
-[Предпросмотр](https://farkhad012.github.io/karty_podskazhut/){:target="_blank"}
+<a href="[https://google.com](https://farkhad012.github.io/karty_podskazhut/)" target="_blank">Предпросмотр</a>
 
 ---
 
