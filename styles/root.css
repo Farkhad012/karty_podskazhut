@@ -1,0 +1,18 @@
+:root {
+  /* colors */
+  --color-bg-light: #F3EFEC;
+  --color-bg-dark: #171717;
+  --color-light: #B3B3B3;
+  --color-dark: #312A4E;
+  --color-accent: #FFAB6B;
+
+
+  /* fonts */
+  --font-title: 'STIX Two Text', sans-derif;
+  --font-text: 'Raleway', sans-derif;
+
+  /* sizes */
+  --padding-x: clamp(1rem, -0.125rem + 5vw, 4.375rem); /* max: 70, min: 16 */
+  --margin-block-top: clamp(1.5rem, 0.125rem + 6.1111vw, 5.625rem); /* max: 90, mi: 24 */
+  --gap-section: clamp(0.5rem, -0.068rem + 2.3301vw, 2rem);
+}
