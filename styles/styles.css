@@ -44,7 +44,7 @@
 
 .h1 {
   font-size: clamp(3.75rem, 2.3301rem + 5.8252vw, 7.5rem);
-  line-height: 108px;
+  line-height: clamp(3.375rem, 2.0971rem + 5.2427vw, 6.75rem);
 }
 
 .h2 {
@@ -55,6 +55,7 @@
 .accent,
 .accent {
   position: relative;
+  font-weight: 600;
 }
 
 .accent::after,
@@ -108,7 +109,8 @@
   margin-top: 27px;
 }
 
-.light-theme.first-letter>p:first-child::first-letter {
+.light-theme.first-letter>p:first-child::first-letter,
+.dark-theme.first-letter>p:first-child::first-letter {
   font-size: 30px;
   font-weight: 700;
   padding: 0 4px;
@@ -124,6 +126,10 @@
   border: 1px solid var(--color-light);
 }
 
+.logo {
+  position: relative;
+  top: -2px;
+}
 
 /* header -------------------------------------------------------------------- */
 .header__top-inner {
@@ -177,8 +183,9 @@
 /* section how-to-work  -------------------------------------------------------------------- */
 
 .how-to-work__quote {
-  max-width: 972px;
+  max-width: clamp(15.3125rem, -1.892rem + 70.5825vw, 60.75rem);
   margin: 0 auto;
+  line-height: 36px;
   font-style: italic;
 }
 
@@ -222,7 +229,8 @@
   position: relative;
 }
 
-.users__list-item::before {
+.light-theme.users__list-item::before,
+.dark-theme.users__list-item::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -230,7 +238,15 @@
   left: -18px;
   width: 8px;
   height: 8px;
+}
+
+.light-theme.users__list-item::before {
   background-color: var(--color-accent);
+}
+
+.dark-theme.users__list-item::before {
+  background-color: transparent;
+  outline: 1px solid var(--color-light);
 }
 
 

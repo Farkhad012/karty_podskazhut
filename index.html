@@ -17,12 +17,14 @@
     </div>
     <div class="header__body border-top border-bottom light-theme">
       <div class="header__body-inner container">
-        <img src="./images/svg/logo-dark.svg" alt="" class="header__logo">
+        <a href="/">
+          <img class="logo" src="./images/svg/logo-dark.svg" alt="" class="header__logo">
+        </a>
         <div class="header__theme-toggle theme-toggle">
-          <button class="theme-toggle__button" aria-label="Переключить на светлую тему">
+          <button class="theme-toggle__button dark-theme" aria-label="Переключить на светлую тему">
             Тёмная
           </button>
-          <button class="theme-toggle__button theme-toggle__button--active accent light-theme"
+          <button class="theme-toggle__button accent light-theme"
             aria-label="Переключить на темную тему">
             Светлая
           </button>
@@ -140,10 +142,10 @@
       <div class="section__inner container">
         <h2 class="users__title h2">Кто пользовался Oblique&nbsp;Strategies</h2>
         <ul class="users__list">
-          <li class="users__list-item">Дэвид Боуи во время записи Берлинской трилогии;</li>
-          <li class="users__list-item">Talking Heads и Дэвид Бирн в сольной карьере;</li>
-          <li class="users__list-item">Coldplay;</li>
-          <li class="users__list-item">MGMT.</li>
+          <li class="users__list-item light-theme">Дэвид Боуи во время записи Берлинской трилогии;</li>
+          <li class="users__list-item light-theme">Talking Heads и Дэвид Бирн в сольной карьере;</li>
+          <li class="users__list-item light-theme">Coldplay;</li>
+          <li class="users__list-item light-theme">MGMT.</li>
         </ul>
       </div>
     </div>
@@ -154,6 +156,8 @@
       <p class="copyright">VЁRSTKA</p>
     </div>
   </footer>
+
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>
