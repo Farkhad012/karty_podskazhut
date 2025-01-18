@@ -9,7 +9,6 @@ function setDarkTheme() {
     element.classList.forEach((className) => {
       if (className.includes('light-theme')) {
         const newClassName = className.replace('light-theme', 'dark-theme');
-        console.log(element.classList);
         element.classList.replace(className, newClassName);
       }
     })
@@ -27,7 +26,6 @@ function setLightTheme() {
     element.classList.forEach((className) => {
       if (className.includes('dark-theme')) {
         const newClassName = className.replace('dark-theme', 'light-theme');
-        console.log(element.classList);
         element.classList.replace(className, newClassName);
       }
     })
